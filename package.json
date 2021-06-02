@@ -1,0 +1,21 @@
+{
+  "name": "breakout",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ccxt": "^1.49.80",
+    "colors": "^1.4.0",
+    "mathjs": "^9.3.2",
+    "moment": "^2.29.1",
+    "momentjs": "^2.0.0",
+    "mongo": "^0.1.0",
+    "mongodb": "^3.6.6",
+    "ololog": "^1.1.175"
+  }
+}
