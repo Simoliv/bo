@@ -75,12 +75,14 @@ async function saveData (db = {}, data) {
       for (const m of Object.keys(markets)) {
           if (m.match(/Token/) ||
             m.match(/3L/) ||
+            m.match(/5L/) ||
             m.match(/ERC/) ||
             m.match(/_/) ||
             m.match(/^[0-9]/) ||
             m.match(/PERP/) ||
             m.match(/BULL/) ||
-            m.match(/3S/)
+            m.match(/3S/) ||
+            m.match(/5S/)
           ) {
             log (color.red('contract, token, future or leveraged market found, skip'), m, '\n');
             continue;
