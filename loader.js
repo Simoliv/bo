@@ -270,8 +270,8 @@ async function saveData (db = {}, data) {
             log (e, 'does not support OHCLV data');
             continue;
         }
-        log ('garbage collection');
-        global.gc();
+        //log ('garbage collection');
+        //global.gc();
     }
     let end = moment().toISOString();
 
